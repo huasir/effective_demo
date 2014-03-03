@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'jetty'
+apply plugin: 'idea'
+
+group = 'com.neo.platform'
+version='1.0-SNAPSHOT'
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+compileJava.options.encoding = 'UTF-8'
+javadoc.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
